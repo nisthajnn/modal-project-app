@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="red-circle"></div>
+        <div class="blue-circle"></div>
+        <div class="card">
+            <img src="./assets/profile-image.webp" alt="user" class="profile-img"/>
+            <h1 class="heading1">Love Babbar</h1>
+            <h2 class="deseg">Founder,CodeHelp</h2>
+            <div class="trial">
+            
+            <button class="btn" onclick="openmodal()"><i class="fas fa-share"></i>Share my Profile</button>
+            <button class="btn">Follow Me</button>
+        </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="letstry">
+            <h1>Share My Profile</h1>
+              <i onclick="closemodal()" class="fa-solid fa-xmark close" id="cross"></i>
+            </div>
+    <div class="head2">share this via</div>
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f ic" id="facebook"></i>
+        <i class="fa-brands fa-twitter ic" id="twitter"></i>
+        <i class="fa-brands fa-instagram ic" id="instagram"></i>
+        <i class="fa-brands fa-whatsapp ic" id="whatsapp" ></i>
+        <i class="fa-brands fa-telegram ic" id="telegram"></i>
+    </div>
+</div>
+ <div onclick="closemodal()" class="overlay" ></div> 
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
